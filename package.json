@@ -1,0 +1,37 @@
+{
+  "name": "read-only-view",
+  "version": "0.1.0",
+  "description": "Get a read-only view of a JavaScript object",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rimraf dist && tsc",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "coverage": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joews/read-only-view.git"
+  },
+  "keywords": [
+    "readonly",
+    "proxy",
+    "view",
+    "read",
+    "only"
+  ],
+  "author": "Joe Whitfield-Seed <joeseed86@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joews/read-only-view/issues"
+  },
+  "homepage": "https://github.com/joews/read-only-view#readme",
+  "devDependencies": {
+    "@types/jest": "^24.0.23",
+    "@types/node": "^12.12.14",
+    "jest": "^24.9.0",
+    "rimraf": "^3.0.0",
+    "ts-jest": "^24.2.0",
+    "typescript": "^3.7.3"
+  }
+}
